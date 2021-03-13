@@ -1,0 +1,52 @@
+
+//<ГОТОВЫЕ КЛАССЫ>====================================================================================================
+
+.ibg{background-position: center;background-size: cover;background-repeat: no-repeat;
+	img{display: none;}
+}
+.lock{
+	overflow: hidden;
+	@media (max-width: 767.98px) {
+	  width: 100%;
+	  position: fixed;
+	  overflow: hidden;
+  }
+}
+
+.anim-cross{
+	&:hover{
+		&:before{
+			width: 100%;
+		}
+	}
+	&:before{
+		transition: all 0.3s ease 0s;
+		content: '';
+		position: absolute;
+		top: 50%;
+		margin: -0.75px 0px 0px 0px;
+		left: 0;
+		height: 1.5px;
+		width: 0;
+		background-color: #ffffff;
+	}
+}
+//</ГОТОВЫЕ КЛАССЫ>====================================================================================================
+
+
+// SLICK>====================================================================================================
+// .slick-slider{
+// 	.slick-track,.slick-list {}
+// 	.slick-list{}
+// 	.slick-track{}
+// 	.slick-slide{}
+// 	.slick-dots{
+// 		li{
+// 			button{}
+// 			&.slick-active{
+// 				button{}
+// 			}
+// 		}
+// 	}
+// }
+//>====================================================================================================
